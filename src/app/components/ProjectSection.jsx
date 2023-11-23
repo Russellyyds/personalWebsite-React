@@ -112,8 +112,9 @@ const ProjectSection = () => {
             initial="initial"
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
+            style={{listStyle:"none"}}
           >
-                 <ProjectCard key={project.id} gitUrl={project.gitUrl} previewUrl={project.previewUrl} imgUrl={project.image} title={project.title} description={project.description}></ProjectCard>
+            <ProjectCard key={project.id} gitUrl={project.gitUrl} previewUrl={project.previewUrl} imgUrl={project.image} title={project.title} description={project.description}></ProjectCard>
 
           </motion.li>
             )}

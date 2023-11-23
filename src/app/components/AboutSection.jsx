@@ -17,11 +17,10 @@ const TAB_DATA = [
                     <li>MongoDB</li>
                     <li>JavaScript</li>
                     <li>React</li>
-                   
-                    
+                    <li>Python</li>
                 </ul>
                 <ul className="list-disc pl-2 ml-20 sm:ml-30">
-                <li>NextJs</li>
+                    <li>NextJs</li>
                     <li>Java</li>
                     <li>SpringBoot</li>
                     <li>Hibernate</li>
@@ -64,9 +63,9 @@ const AboutSection = () => {
         })
     }
     return (
-        <section className=' text-white'>
+        <section id='about' className=' text-white'>
             <div className=' md:grid md:grid-cols-2 gap-8 items-center py-8 px-0 sm:grid sm:grid-cols-1 lg:gap-16 sm:py-16 xl:py-16'>
-                <Image src="/imgs/about.png" width={500} height={550} className=' rounded-md'></Image>
+                <Image src="/imgs/about.png" width={520} height={520} className=' pb-3 place-self-center rounded-md'></Image>
                 <div className=' mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className=' text-4xl text-white font-bold mb-4'>About Me</h2>
                     <p className=' text-base lg:text-lg'>
