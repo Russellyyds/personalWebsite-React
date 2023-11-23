@@ -36,8 +36,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className=" text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                        voluptuous.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptuous.
                     </p>
                     <div>
                         <button className=" px-6 py-3 rounded-full w-full sm:w-fit mr-4 text-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-400">Hire Me</button>
