@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import NavLink from './Navlink'
+import NavLink from './NavLink'
 import Link from 'next/link'
 import { useState } from 'react'
 import MenuOverlay from './MenuOverlay'
