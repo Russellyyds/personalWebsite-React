@@ -3,7 +3,7 @@ import React from "react";
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
-
+import Link from "next/link"
 const HeroSection = () => {
     return (
         <section className="lg:py-16">
@@ -42,7 +42,7 @@ const HeroSection = () => {
                         <button className=" px-6 py-3 rounded-full w-full sm:w-fit mr-4 text-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500  hover:bg-slate-400">Hire Me</button>
                         <button className="px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover: bg-slate-800 text-white border border-white mt-3">
                             <span className=" block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                                Download CV
+                                <Link href="FullStack-CV-HangPan.pdf">Download CV</Link>
                             </span>
                         </button>
                     </div>
