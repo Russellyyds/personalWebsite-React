@@ -75,7 +75,7 @@ const HeroSection = () => {
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.3 }}
+                    transition={{ duration: 0.5 }}
                     className=" col-span-5 place-self-center mt-4 lg:mt-0">
                     <div className=" rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                         <Image className=" absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" src="/imgs/avatar.png" alt="my avatar" width={350} height={350} />
@@ -93,10 +93,10 @@ const HeroSection = () => {
                 <DialogTitle id="alert-dialog-slide-title">{"Please contact me"}</DialogTitle>
                 <DialogContent>
                     <DialogContentText id="alert-dialog-slide-description" color="primary">
-                        Email: Russell1997100188@gmail.com
+                        Email: <a href="mailto: Russell1997100188@gmail.com"><i>Russell1997100188@gmail.com</i></a>
                     </DialogContentText>
                     <DialogContentText id="alert-dialog-slide-description" color="primary">
-                        Phone: +61 0478223484
+                        Phone: <a href="tel: 0478223484"><i>+61 0478223484</i></a>
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
